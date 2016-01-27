@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3845CAD91C5225C400AE3419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845CAD81C5225C400AE3419 /* main.m */; };
+		3845CADC1C5225C400AE3419 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845CADB1C5225C400AE3419 /* AppDelegate.m */; };
+		3845CADF1C5225C400AE3419 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845CADE1C5225C400AE3419 /* ViewController.m */; };
+		3845CAE21C5225C400AE3419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3845CAE01C5225C400AE3419 /* Main.storyboard */; };
+		3845CAE41C5225C400AE3419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3845CAE31C5225C400AE3419 /* Assets.xcassets */; };
+		3845CAE71C5225C400AE3419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3845CAE51C5225C400AE3419 /* LaunchScreen.storyboard */; };
+		3845CAF21C5225C400AE3419 /* RollProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845CAF11C5225C400AE3419 /* RollProjectTests.m */; };
+		3845CAFD1C5225C400AE3419 /* RollProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845CAFC1C5225C400AE3419 /* RollProjectUITests.m */; };
+		3845CB0F1C54732B00AE3419 /* THCustomRollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845CB0E1C54732B00AE3419 /* THCustomRollView.m */; };
+		3845CB111C54753B00AE3419 /* lu0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3845CB101C54753B00AE3419 /* lu0.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3845CAEE1C5225C400AE3419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3845CACC1C5225C400AE3419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3845CAD31C5225C400AE3419;
+			remoteInfo = RollProject;
+		};
+		3845CAF91C5225C400AE3419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3845CACC1C5225C400AE3419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3845CAD31C5225C400AE3419;
+			remoteInfo = RollProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3845CAD41C5225C400AE3419 /* RollProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3845CAD81C5225C400AE3419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3845CADA1C5225C400AE3419 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3845CADB1C5225C400AE3419 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3845CADD1C5225C400AE3419 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3845CADE1C5225C400AE3419 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3845CAE11C5225C400AE3419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3845CAE31C5225C400AE3419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3845CAE61C5225C400AE3419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3845CAE81C5225C400AE3419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3845CAED1C5225C400AE3419 /* RollProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3845CAF11C5225C400AE3419 /* RollProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollProjectTests.m; sourceTree = "<group>"; };
+		3845CAF31C5225C400AE3419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3845CAF81C5225C400AE3419 /* RollProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3845CAFC1C5225C400AE3419 /* RollProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollProjectUITests.m; sourceTree = "<group>"; };
+		3845CAFE1C5225C400AE3419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3845CB0D1C54732B00AE3419 /* THCustomRollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCustomRollView.h; sourceTree = "<group>"; };
+		3845CB0E1C54732B00AE3419 /* THCustomRollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCustomRollView.m; sourceTree = "<group>"; };
+		3845CB101C54753B00AE3419 /* lu0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lu0.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3845CAD11C5225C400AE3419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3845CAEA1C5225C400AE3419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3845CAF51C5225C400AE3419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3845CACB1C5225C400AE3419 = {
+			isa = PBXGroup;
+			children = (
+				3845CB101C54753B00AE3419 /* lu0.png */,
+				3845CAD61C5225C400AE3419 /* RollProject */,
+				3845CAF01C5225C400AE3419 /* RollProjectTests */,
+				3845CAFB1C5225C400AE3419 /* RollProjectUITests */,
+				3845CAD51C5225C400AE3419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3845CAD51C5225C400AE3419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3845CAD41C5225C400AE3419 /* RollProject.app */,
+				3845CAED1C5225C400AE3419 /* RollProjectTests.xctest */,
+				3845CAF81C5225C400AE3419 /* RollProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3845CAD61C5225C400AE3419 /* RollProject */ = {
+			isa = PBXGroup;
+			children = (
+				3845CADA1C5225C400AE3419 /* AppDelegate.h */,
+				3845CADB1C5225C400AE3419 /* AppDelegate.m */,
+				3845CADD1C5225C400AE3419 /* ViewController.h */,
+				3845CADE1C5225C400AE3419 /* ViewController.m */,
+				3845CB0D1C54732B00AE3419 /* THCustomRollView.h */,
+				3845CB0E1C54732B00AE3419 /* THCustomRollView.m */,
+				3845CAE01C5225C400AE3419 /* Main.storyboard */,
+				3845CAE31C5225C400AE3419 /* Assets.xcassets */,
+				3845CAE51C5225C400AE3419 /* LaunchScreen.storyboard */,
+				3845CAE81C5225C400AE3419 /* Info.plist */,
+				3845CAD71C5225C400AE3419 /* Supporting Files */,
+			);
+			path = RollProject;
+			sourceTree = "<group>";
+		};
+		3845CAD71C5225C400AE3419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3845CAD81C5225C400AE3419 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3845CAF01C5225C400AE3419 /* RollProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				3845CAF11C5225C400AE3419 /* RollProjectTests.m */,
+				3845CAF31C5225C400AE3419 /* Info.plist */,
+			);
+			path = RollProjectTests;
+			sourceTree = "<group>";
+		};
+		3845CAFB1C5225C400AE3419 /* RollProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3845CAFC1C5225C400AE3419 /* RollProjectUITests.m */,
+				3845CAFE1C5225C400AE3419 /* Info.plist */,
+			);
+			path = RollProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3845CAD31C5225C400AE3419 /* RollProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3845CB011C5225C400AE3419 /* Build configuration list for PBXNativeTarget "RollProject" */;
+			buildPhases = (
+				3845CAD01C5225C400AE3419 /* Sources */,
+				3845CAD11C5225C400AE3419 /* Frameworks */,
+				3845CAD21C5225C400AE3419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollProject;
+			productName = RollProject;
+			productReference = 3845CAD41C5225C400AE3419 /* RollProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3845CAEC1C5225C400AE3419 /* RollProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3845CB041C5225C400AE3419 /* Build configuration list for PBXNativeTarget "RollProjectTests" */;
+			buildPhases = (
+				3845CAE91C5225C400AE3419 /* Sources */,
+				3845CAEA1C5225C400AE3419 /* Frameworks */,
+				3845CAEB1C5225C400AE3419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3845CAEF1C5225C400AE3419 /* PBXTargetDependency */,
+			);
+			name = RollProjectTests;
+			productName = RollProjectTests;
+			productReference = 3845CAED1C5225C400AE3419 /* RollProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3845CAF71C5225C400AE3419 /* RollProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3845CB071C5225C400AE3419 /* Build configuration list for PBXNativeTarget "RollProjectUITests" */;
+			buildPhases = (
+				3845CAF41C5225C400AE3419 /* Sources */,
+				3845CAF51C5225C400AE3419 /* Frameworks */,
+				3845CAF61C5225C400AE3419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3845CAFA1C5225C400AE3419 /* PBXTargetDependency */,
+			);
+			name = RollProjectUITests;
+			productName = RollProjectUITests;
+			productReference = 3845CAF81C5225C400AE3419 /* RollProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3845CACC1C5225C400AE3419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tairan;
+				TargetAttributes = {
+					3845CAD31C5225C400AE3419 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3845CAEC1C5225C400AE3419 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3845CAD31C5225C400AE3419;
+					};
+					3845CAF71C5225C400AE3419 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3845CAD31C5225C400AE3419;
+					};
+				};
+			};
+			buildConfigurationList = 3845CACF1C5225C400AE3419 /* Build configuration list for PBXProject "RollProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3845CACB1C5225C400AE3419;
+			productRefGroup = 3845CAD51C5225C400AE3419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3845CAD31C5225C400AE3419 /* RollProject */,
+				3845CAEC1C5225C400AE3419 /* RollProjectTests */,
+				3845CAF71C5225C400AE3419 /* RollProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3845CAD21C5225C400AE3419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3845CAE71C5225C400AE3419 /* LaunchScreen.storyboard in Resources */,
+				3845CAE41C5225C400AE3419 /* Assets.xcassets in Resources */,
+				3845CAE21C5225C400AE3419 /* Main.storyboard in Resources */,
+				3845CB111C54753B00AE3419 /* lu0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3845CAEB1C5225C400AE3419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3845CAF61C5225C400AE3419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3845CAD01C5225C400AE3419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3845CADF1C5225C400AE3419 /* ViewController.m in Sources */,
+				3845CADC1C5225C400AE3419 /* AppDelegate.m in Sources */,
+				3845CB0F1C54732B00AE3419 /* THCustomRollView.m in Sources */,
+				3845CAD91C5225C400AE3419 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3845CAE91C5225C400AE3419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3845CAF21C5225C400AE3419 /* RollProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3845CAF41C5225C400AE3419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3845CAFD1C5225C400AE3419 /* RollProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3845CAEF1C5225C400AE3419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3845CAD31C5225C400AE3419 /* RollProject */;
+			targetProxy = 3845CAEE1C5225C400AE3419 /* PBXContainerItemProxy */;
+		};
+		3845CAFA1C5225C400AE3419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3845CAD31C5225C400AE3419 /* RollProject */;
+			targetProxy = 3845CAF91C5225C400AE3419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3845CAE01C5225C400AE3419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3845CAE11C5225C400AE3419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3845CAE51C5225C400AE3419 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3845CAE61C5225C400AE3419 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3845CAFF1C5225C400AE3419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3845CB001C5225C400AE3419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3845CB021C5225C400AE3419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tairan.RollProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3845CB031C5225C400AE3419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RollProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tairan.RollProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3845CB051C5225C400AE3419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tairan.RollProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollProject.app/RollProject";
+			};
+			name = Debug;
+		};
+		3845CB061C5225C400AE3419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RollProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tairan.RollProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollProject.app/RollProject";
+			};
+			name = Release;
+		};
+		3845CB081C5225C400AE3419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RollProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tairan.RollProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollProject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3845CB091C5225C400AE3419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RollProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tairan.RollProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RollProject;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3845CACF1C5225C400AE3419 /* Build configuration list for PBXProject "RollProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3845CAFF1C5225C400AE3419 /* Debug */,
+				3845CB001C5225C400AE3419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3845CB011C5225C400AE3419 /* Build configuration list for PBXNativeTarget "RollProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3845CB021C5225C400AE3419 /* Debug */,
+				3845CB031C5225C400AE3419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3845CB041C5225C400AE3419 /* Build configuration list for PBXNativeTarget "RollProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3845CB051C5225C400AE3419 /* Debug */,
+				3845CB061C5225C400AE3419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3845CB071C5225C400AE3419 /* Build configuration list for PBXNativeTarget "RollProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3845CB081C5225C400AE3419 /* Debug */,
+				3845CB091C5225C400AE3419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3845CACC1C5225C400AE3419 /* Project object */;
+}
