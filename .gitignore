@@ -1,0 +1,16 @@
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcworkspace
+Pods
+
+Podfile.lock
+
+build
+
+.DS_Store
+
+._*
+
+.svn
+
+.idea
