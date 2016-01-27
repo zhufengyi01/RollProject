@@ -39,6 +39,7 @@
         if (self) {
             
             
+            
             scrollview = ({
                 NSInteger  kbuttonWidth =  DEVICE_SCREEN_WIDTH /3;
                 
